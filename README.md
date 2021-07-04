@@ -24,4 +24,4 @@ Silotech is a dynamic ecommerce website for computer/PC accessories.
 
 ### `LIVE SITE:` [SILOTECH](https://silotech-shop.web.app/)
 
-**_Server Repository:_** **_[SILOTECH SERVER](https://github.com/mekaiser/silotech-server)_**
+**_Client Repository:_** **_[SILOTECH CLIENT](https://github.com/mekaiser/silotech-client)_**
