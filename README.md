@@ -1,25 +1,15 @@
 # SILOTECH
 
-![SILOTECH](https://raw.githubusercontent.com/mekaiser/silotech-client/main/src/images/silotech-git-cover.png)
-
-Silotech is a dynamic ecommerce website for computer/PC accessories where a user can order his/her desired product(s).
-
-## FEATURES
-
-- One-click login with google.
-- Users can book a specific product.
-- Users can see all their ordered products.
-- Admin can add services or delete services.
-- Firebase authentication & hosting.
-
-## MADE WITH
+## TECHNOLOGY
 
 - React
-- React Bootstrap
-- Firebase
-- Express JS
+- NodeJS
 - MongoDB
-- Bootstrap5
+
+## TOOLS
+
+- Git
+- Firebase
 - Heroku
 
 ### `LIVE SITE:` [SILOTECH](https://silotech-shop.web.app/)
