@@ -21,6 +21,7 @@ const client = new MongoClient(uri, {
 client.connect((err) => {
   const productsCollection = client.db("silotech").collection("products");
   const ordersCollection = client.db("silotech").collection("orders");
+  const adminsCollection = client.db("silotech").collection("admins");
 
   app.get("/products", (req, res) => {
     productsCollection.find().toArray((err, products) => {
@@ -28,6 +29,13 @@ client.connect((err) => {
     });
   });
 
+  app.get("/isAdmin", (req, res) => {
+    const queryEmail = req.query.email;
+    adminsCollection.find({ email: queryEmail }).toArray((err, email) => {
+      res.send(email);
+    });
+  });
+  
   app.get("/orderedProducts", (req, res) => {
     const queryEmail = req.query.email;
     ordersCollection.find({ email: queryEmail }).toArray((err, products) => {
